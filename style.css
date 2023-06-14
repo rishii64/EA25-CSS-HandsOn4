@@ -89,12 +89,13 @@ li span{
 }
 .parents3{
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows:  auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:  auto 53px 100px 15px;
     margin-top: 20px;
     color: white;
     font-weight: 600;
-    grid-gap: 10px;
+    gap: 10px;
+    border: 1px solid grey;
 }
 .item1{
     grid-column: 1/5;
@@ -108,12 +109,13 @@ li span{
     grid-row: 2/3;
     background-color: green;
     text-align: center;
-    /* font-size: x-large; */
+    font-size: 20px;
 }
 .item3{
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: rgb(71, 136, 211);
+    font-size: 20px;
 }
 .item4{
     grid-column: 3/4;
@@ -124,11 +126,8 @@ li span{
     grid-column: 4/5;
     grid-row: 2/4;
     background-color: black;
-    font-size: 10px;
-    text-decoration: underline;
-    /* word-wrap: break-word;
-    word-break: break-all;
-    max-width:30px; */
+    font-size: 12px;
+    width: 50px;
 }
 .item6{
     grid-column: 1/4;
